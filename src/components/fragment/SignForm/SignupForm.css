@@ -1,0 +1,177 @@
+/* Add this style for error messages */
+.error {
+  color: rgb(176, 6, 6);
+  font-size: 14px;
+  margin-top: -15px;
+  /* Adjust as needed */
+}
+
+.signup-body {
+  font-family: 'Poppins', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  /* Change this line */
+  background: url('/src/components/assets/img/e-signup.jpg') no-repeat;
+  background-size: cover;
+  /* Change this line */
+  background-position: center;
+  width: 100%;
+
+}
+
+.wrapper2 {
+  width: 430px;
+  /* Adjust the width as needed */
+  background: transparent;
+  color: rgb(0, 0, 0);
+  border-radius: 10px;
+  padding: 20px 30px;
+  /* Adjust padding as needed */
+  border: 2px solid gray;
+  backdrop-filter: blur(15px);
+  /* Adjust blur as needed */
+  box-shadow: 0 0 10px rgb(0, 0, 0);
+  margin: auto;
+  /* Center the form horizontally */
+}
+
+/* Add these styles for form elements */
+.wrapper2 form {
+  display: flex;
+  flex-direction: column;
+}
+
+.wrapper2 h1 {
+  font-size: 24px;
+  /* Adjust font size as needed */
+  text-align: center;
+}
+
+.wrapper2 .input-box {
+  position: relative;
+  width: 100%;
+  height: 40px;
+  /* Adjust height as needed */
+  margin: 15px 0;
+  /* Adjust margin as needed */
+}
+
+.input-box input {
+  width: 100%;
+  height: 100%;
+  background: transparent;
+  outline: none;
+  border: 2px solid gray;
+  border-radius: 30px;
+  /* Adjust border-radius as needed */
+  font-size: 16px;
+  /* Adjust font size as needed */
+  color: rgb(0, 0, 0);
+  padding: 15px;
+  /* Adjust padding as needed */
+}
+
+.input-box input::placeholder {
+  color: rgb(255, 255, 255);
+}
+
+.input-box .icon {
+  margin-top: -8px;
+  position: absolute;
+  right: 15px;
+  /* Adjust right as needed */
+  top: 50%;
+  transform: translate(-50%);
+  font-size: 14px;
+  /* Adjust font size as needed */
+}
+
+.wrapper2 .remember-forgot {
+  display: flex;
+  justify-content: space-between;
+  font-size: 12px;
+  /* Adjust font size as needed */
+  margin: 15px 0;
+  /* Adjust margin as needed */
+}
+
+.remember-forgot label input {
+  accent-color: white;
+  margin-right: 4px;
+}
+
+.remember-forgot a {
+  color: white;
+  text-decoration: none;
+}
+
+.remember-forgot a:hover {
+  text-decoration: underline;
+}
+
+.wrapper2 button {
+  width: 100%;
+  height: 35px;
+  /* Adjust height as needed */
+  background: white;
+  border: none;
+  outline: none;
+  border-radius: 30px;
+  /* Adjust border-radius as needed */
+  box-shadow: 0 0 10px black;
+  cursor: pointer;
+  font-size: 14px;
+  /* Adjust font size as needed */
+  color: #333;
+  font-weight: 700;
+}
+
+.wrapper2 .register-link {
+  font-size: 12px;
+  /* Adjust font size as needed */
+  text-align: center;
+  margin: 15px 0;
+  /* Adjust margin as needed */
+}
+
+.register-link p a {
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.register-link p a:hover {
+  text-decoration: underline;
+}
+
+.signup-button button {
+  background: white;
+  /* Initial background color */
+  color: #000000;
+  /* Initial text color */
+  transition: background 0.3s, color 0.3s;
+  /* Transition effect on hover */
+
+  /* Other styles for the button */
+  width: 100%;
+  height: 45px;
+  border: none;
+  outline: none;
+  border-radius: 40px;
+  box-shadow: 0 0 10px rgb(157, 157, 157);
+  cursor: pointer;
+  font-size: 16px;
+  margin: 15px 0;
+  font-weight: 700;
+}
+
+.signup-button button:hover {
+  background: gray;
+  /* Background color on hover */
+  color: white;
+  /* Text color on hover */
+}

@@ -1,0 +1,147 @@
+/* Add this style for error messages */
+.error {
+  color: rgb(176, 6, 6);
+  font-size: 14px;
+  margin-top: -15px; /* Adjust as needed */
+}
+
+.signin-body {
+  font-family: 'Poppins', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Change this line */
+  background: url('/src/components/assets/img/e.jpg') no-repeat;
+  background-size: cover; /* Change this line */
+  background-position: center;
+  width: 100%;
+}
+
+.wrapper1 {
+  width: 420px;
+  background: transparent;
+  color: rgb(0, 0, 0);
+  border-radius: 10px;
+  padding: 30px 40px;
+  border: 2px solid rgb(210, 210, 210);
+  backdrop-filter: blur(30px);
+  box-shadow: 0 0 10px rgb(126, 126, 126);
+  margin: auto; /* Center the form horizontally */
+}
+
+/* Add these styles for form elements */
+.wrapper1 form {
+  display: flex;
+  flex-direction: column;
+}
+
+.wrapper1 h1 {
+  font-size: 36px;
+  text-align: center;
+}
+
+.wrapper1 .input-box {
+  position: relative;
+  width: 100%;
+  height: 50px;
+  margin: 20px 0; /* Adjust as needed */
+}
+
+.input-box input {
+  width: 100%;
+  height: 100%;
+  background: transparent;
+  outline: none;
+  border: 2px solid rgb(0, 0, 0);
+  border-radius: 40px;
+  font-size: 20px;
+  color: rgb(0, 0, 0);
+  padding: 20px 45px 20px 20px;
+}
+
+.input-box input::placeholder {
+  color: rgb(0, 0, 0) !important;
+}
+
+.input-box .icon {
+  margin-top: -8px;
+  position: absolute;
+  right: 20px;
+  top: 50%;
+  transform: translate(-50%);
+  font-size: 16px;
+}
+
+.wrapper1 .remember-forgot {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14.5px;
+  margin: 20px 0 20px;
+}
+
+.remember-forgot label input {
+  accent-color: rgb(0, 0, 0) !important;
+  margin-right: 4px;
+}
+
+.remember-forgot a {
+  color: rgb(0, 0, 0) !important;
+  text-decoration: none;
+}
+
+.remember-forgot a:hover {
+  text-decoration: underline;
+}
+
+.wrapper1 button {
+  width: 100%;
+  height: 45px;
+  background: white;
+  border: none;
+  outline: none;
+  border-radius: 40px;
+  box-shadow: 0 0 10px rgb(157, 157, 157);
+  cursor: pointer;
+  font-size: 16px;
+  color: #000000;
+  font-weight: 700;
+}
+
+.wrapper1 .register-link {
+  font-size: 14.5px;
+  text-align: center;
+  margin: 20px 0 15px;
+}
+
+.register-link p a {
+  color: rgb(0, 0, 0) !important;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.register-link p a:hover {
+  text-decoration: underline;
+}
+.signin-button button {
+  background: white; /* Initial background color */
+  color: #000000; /* Initial text color */
+  transition: background 0.3s, color 0.3s; /* Transition effect on hover */
+
+  /* Other styles for the button */
+  width: 100%;
+  height: 45px;
+  border: none;
+  outline: none;
+  border-radius: 40px;
+  box-shadow: 0 0 10px rgb(157, 157, 157);
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.signin-button button:hover {
+  background: gray; /* Background color on hover */
+  color: white; /* Text color on hover */
+}
